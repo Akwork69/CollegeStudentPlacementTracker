@@ -1,0 +1,37 @@
+#home {
+  height: 87vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+#cardsContainer {
+  height: 60vh;
+  width: 55%;
+  /* border: 2px solid; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#cardsContainer > div {
+  height: 22vh;
+  width: 40%;
+  border: 1px solid gray;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+#home > img {
+  height: 100%;
+  width: 40%;
+  border-radius: 0px 0px 50px 0px;
+}

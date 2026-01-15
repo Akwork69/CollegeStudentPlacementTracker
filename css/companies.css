@@ -1,0 +1,16 @@
+#companies {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+  /* border: 2px solid red; */
+}
+
+#company_card {
+  height: auto;
+  width: 20%;
+  box-shadow: 0px 0px 10px gray;
+  align-content: center;
+}
